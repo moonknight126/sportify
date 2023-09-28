@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-Web Player-music for everyone</title>
+    <link rel="stylesheet" href="project2.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="icon" href="./logo.png">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Carter+One&family=Montserrat:wght@300;400;500;600;700&family=Poppins&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+      
+   <div class="main">
+    
+
+ <!--sidebar header Home and search-->
+ <div class="sidebar">
+        <div class="nav">
+            <div class="nav_option" style="opacity: 1;" >
+                <i class="fa-solid fa-house"></i>
+               <a href="#">Home</a>
+            </div>
+            <div class="nav_option">
+                <i class="fa-solid fa-magnifying-glass"></i>
+               <a href="#">Search</a>
+        </div>
+        </div>
+          <!--library section in sidebar body-->
+        <div class="library">
+           <div class="option">
+            <div class="library_option nav_option">
+                 <img src="library_icon.png" alt="error">
+               <a href="#">Your Library</a>
+              </div>
+             <!--creat another div for cross and arrow options into library div-->
+             <div class="icons">
+                <i class="fa-solid fa-plus"></i>
+                <i class="fa-solid fa-arrow-right"></i>
+             </div>
+           </div>
+           <!--create another tw7o boxes for sidebar footer-->
+           <div class="lib_box">
+              <div class="box">
+                <p class="box-p1">Create your first Playlist</p>
+                <p class="box-p2">It's easy, we we'll help you</p>
+                <button class="badge">Create playlist</button>
+           </div>
+           <div class="box">
+            <p class="box-p1">Let's find some prodcasts ro follow</p>
+            <p class="box-p2">We keep you updated on new episodes</p>
+            <button class="badge">Browsw prodcasts</button>
+       </div>
+      </div>
+    </div>
+   </div>
+    
+
+
+
+
+<!--Now the turn of create main section into main content-->
+<!--Firstly create sticky nav for header-->
+      <div class="main-content">
+        <div class="sticky-nav">
+         <div class="sticky-nav-icons">
+            <img src="backward_icon.png" alt="backwoed">
+            <img src="forward_icon.png" alt="forword" class="hide">
+         </div>
+        <div class="sticky-nav-option">
+         <button class="badge nav-item hide">Explore Primium</button>
+         <button class="badge  nav-item dark-badge"> <i class="fa-regular fa-circle-down" style="margin-right: 5px;"></i>Install app</button>
+         <i class="fa-regular fa-user  nav-item"></i>
+        </div>
+         
+        </div>
+        <!--now create cards in main section for body-->
+      
+            <h2>Recently Played</h2>
+            <div class="cards-container">
+            <div class="card">
+           <img src="card1img.jpeg" alt="" class="card-img">
+               <p class="card-title">Top 50 -Global</p>
+               <p class="card-info">Your daily update of the played...</p>
+            </div>
+           </div>
+
+           
+           <h2>Tranding now near You</h2>
+           <div class="cards-container">
+           <div class="card">
+          <img src="card4img.jpeg" alt="" class="card-img">
+              <p class="card-title">Top 50 -Global</p>
+              <p class="card-info">Your daily update of the played...</p>
+           </div>
+          
+          
+          
+           <div class="card">
+          <img src="card3img.jpeg" alt="" class="card-img">
+              <p class="card-title">Top 50 -Global</p>
+              <p class="card-info">Your daily update of the played...</p>
+           </div>
+         
+          
+           
+           <div class="card">
+          <img src="card4img.jpeg" alt="" class="card-img">
+              <p class="card-title">Top 50 -Global</p>
+              <p class="card-info">Your daily update of the played...</p>
+           </div>
+
+           <div class="card">
+            <img src="card4img.jpeg" alt="" class="card-img">
+                <p class="card-title">Top 50 -Global</p>
+                <p class="card-info">Your daily update of the played...</p>
+             </div>
+
+             <div class="card">
+               <img src="card4img.jpeg" alt="" class="card-img">
+                   <p class="card-title">Top 50 -Global</p>
+                   <p class="card-info">Your daily update of the played...</p>
+                </div>
+          
+         </div>
+           
+         <h2>Features Charts</h2>
+         <div class="cards-container">
+         <div class="card">
+        <img src="card5img.jpeg" alt="" class="card-img">
+            <p class="card-title">Top 50 -Global</p>
+            <p class="card-info">Your daily update of the played...</p>
+         </div>
+
+         <div class="card">
+            <img src="card6img.jpeg" alt="" class="card-img">
+                <p class="card-title">Top Songs -india</p>
+                <p class="card-info">Your daily update of the played...</p>
+             </div>
+
+             <div class="card">
+               <img src="card1img.jpeg" alt="" class="card-img">
+                   <p class="card-title">Top 50 -Global</p>
+                   <p class="card-info">Your daily update of the played...</p>
+                </div>
+        </div>
+           
+   <!--now create a footer part for our main content-->
+     <div class="footer">
+      <div class="line"></div>
+     </div>
+ </div>
+
+
+
+
+
+ <!--now create footer part for website -->
+          <div class="music-player">
+           <div class="album">
+            <img src="song.jpeg" alt="" class="image">
+           <div class="text">Daylight</div>
+            <i class="fa-regular fa-heart"></i>
+               </i>
+            </span>
+           
+           </div>
+           <div class="player">
+            <div class="players-control">
+              <i class="fa-solid fa-shuffle player-control-icon" ></i>
+              <i class="fa-solid fa-circle-arrow-left player-control-icon"></i>
+              <i class="fa-solid fa-circle-play player-control-icon" style="opacity: 1; font-size: 25px; margin-bottom: 7px;"> </i>
+              <i class="fa-solid fa-circle-arrow-right player-control-icon"></i>
+              <i class="fa-sharp fa-solid fa-arrows-rotate player-control-icon"></i>
+            </div>
+            <div class="playback-bar">
+
+               <span class="current-time">00:00</span>
+               <input type="range" min="0" max="100" class="progrees-bar" step="1">
+               <span class="total-time">3:33</span>
+            </div>
+           </div>
+           <div class="control"></div>
+          </div>
+
+
+  
+   </div>
+</body>
+</html>
